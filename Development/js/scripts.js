@@ -5,7 +5,10 @@ let instructor = {
     username: "careless10",
     numberOfRepos: 200,
   },
-  sayHello: function () {
+  
+  sayHello: function (console) {
+   console.log(instructor.name)
+    console.log(instructor.courses)
     console.log("Hi, I'm Menawer");
   },
 };
